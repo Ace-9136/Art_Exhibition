@@ -148,7 +148,7 @@ const VirtualGalleryLanding = () => {
                   whileTap={{ scale: 0.95 }}
                   className="mx-auto lg:mx-0 bg-[#013C58] text-[#bff1ff] px-6 py-3 rounded-full 
                             flex items-center space-x-2 text-base md:text-lg font-semibold"
-                  onClick={() => setActiveSection('virtual-gallery')}
+                  onClick={() => setActiveSection('gallary')}
                 >
                   <span>Explore Gallery</span>
                   <ArrowRight size={20} />

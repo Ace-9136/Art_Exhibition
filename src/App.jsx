@@ -153,6 +153,9 @@ const VirtualGalleryLanding = () => {
                   <span>Explore Gallery</span>
                   <ArrowRight size={20} />
                 </motion.button>
+                  <p className="text-xs mt-2 md:text-sm text-[#013C58] mb-6 md:mb-8">
+                  (Note: Use Desktop/ Laptop for better experience)
+                </p>
               </motion.div>
 
               <motion.div 

@@ -289,6 +289,12 @@ const VirtualGalleryLanding = () => {
         className="p-4 text-center text-[#013C58] text-xs md:text-sm"
       >
         © 2024 Virtual Gallery Exhibition. All rights reserved.
+        <p>
+          Designed & Developed by Sahil Bagate [
+          <a href="https://www.linkedin.com/in/your-profile-link" target="_blank" rel="noopener noreferrer" class="underline text-blue-500 hover:text-blue-700">LinkedIn Profile</a>]
+        </p>
+
+
       </motion.footer>
     </div>
   );

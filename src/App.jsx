@@ -270,7 +270,7 @@ const VirtualGalleryLanding = () => {
         
           {/* Alternative iframe for mobile devices */}
           <div className="block md:hidden">
-          <iframe width="350" height="750" src="https://www.artsteps.com/embed/6759d4c63584a28c3d785c19/560/315" frameborder="0" allowfullscreen></iframe>
+          <iframe width="350" height="650" src="https://www.artsteps.com/embed/6759d4c63584a28c3d785c19/560/315" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
         

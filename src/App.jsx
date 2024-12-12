@@ -286,7 +286,7 @@ const VirtualGalleryLanding = () => {
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7 }}
-        className="p-4 text-center text-[#013C58] text-xs md:text-sm"
+        className="p-4 text-center text-[#bff1ff] bg-[#013C58] text-xs md:text-sm"
       >
         © 2024 Virtual Gallery Exhibition. All rights reserved.
         <p>

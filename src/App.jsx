@@ -241,7 +241,7 @@ const VirtualGalleryLanding = () => {
                 <p className="text-base md:text-xl text-[#013C58] md:mb-2">
                 "Welcome to the Virtual Poster Design Exhibition! After seeing all the amazing designs from my 5 Poster Design Briefs series, I'm excited to bring them together in this virtual space to showcase the incredible creativity from all of you. Explore diverse interpretations, bold designs, and fresh concepts as we celebrate the art of poster design in the digital age. Thank you to everyone who participated — let’s keep the creativity flowing!"
                 </p>
-                <p className="text-base justify-end mr-auto md:text-xl text-[#013C58] mb-4 md:mb-6">~Saurabh Zore</p>
+                <p className="text-base flex justify-end mr-auto md:text-xl text-[#013C58] mb-4 md:mb-6">~Saurabh Zore</p>
                 <motion.div 
                   className="flex justify-center lg:justify-start space-x-4"
                 >

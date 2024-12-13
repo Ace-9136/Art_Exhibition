@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Play, Grid, User, Menu, X, ArrowRight } from 'lucide-react';
+import { Play, Grid, User, Menu, X, ArrowRight, Home } from 'lucide-react';
 import { div } from 'framer-motion/m';
 import poster1 from './assets/Images/poster1.jpg';
 import poster2 from './assets/Images/poster2.jpg';
@@ -28,7 +28,7 @@ const VirtualGalleryLanding = () => {
   };
 
   const navItems = [
-    { id: 'home', label: 'Home', icon: Grid },
+    { id: 'home', label: 'Home', icon: Home },
     { id: 'gallary', label: 'Gallery', icon: Grid },
   ];
 

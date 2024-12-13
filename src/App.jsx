@@ -238,9 +238,10 @@ const VirtualGalleryLanding = () => {
                 <h2 className="text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-[#013C58]">
                   About Exhibition
                 </h2>
-                <p className="text-base md:text-xl text-[#013C58] mb-4 md:mb-6">
-                Welcome to the Virtual Poster Design Exhibition! After seeing all the amazing designs from my 5 Poster Design Briefs series, I'm excited to bring them together in this virtual space to showcase the incredible creativity from all of you. Explore diverse interpretations, bold designs, and fresh concepts as we celebrate the art of poster design in the digital age. Thank you to everyone who participated — let’s keep the creativity flowing!
+                <p className="text-base md:text-xl text-[#013C58] md:mb-2">
+                "Welcome to the Virtual Poster Design Exhibition! After seeing all the amazing designs from my 5 Poster Design Briefs series, I'm excited to bring them together in this virtual space to showcase the incredible creativity from all of you. Explore diverse interpretations, bold designs, and fresh concepts as we celebrate the art of poster design in the digital age. Thank you to everyone who participated — let’s keep the creativity flowing!"
                 </p>
+                <p className="text-base justify-end mr-auto md:text-xl text-[#013C58] mb-4 md:mb-6">~Saurabh Zore</p>
                 <motion.div 
                   className="flex justify-center lg:justify-start space-x-4"
                 >
@@ -282,7 +283,7 @@ const VirtualGalleryLanding = () => {
       </motion.main>
 
       {/* Footer */}
-      <motion.footer
+      <motion.footer  
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7 }}
@@ -291,7 +292,7 @@ const VirtualGalleryLanding = () => {
         © 2024 Virtual Gallery Exhibition. All rights reserved.
         <p>
           Designed & Developed by Sahil Bagate [
-          <a href="https://www.linkedin.com/in/your-profile-link" target="_blank" rel="noopener noreferrer" class="underline text-blue-500 hover:text-blue-700">LinkedIn Profile</a>]
+          <a href="https://www.linkedin.com/in/sahil9136/" target="_blank" rel="noopener noreferrer" class="underline text-blue-500 hover:text-blue-700">LinkedIn Profile</a>]
         </p>
 
 
